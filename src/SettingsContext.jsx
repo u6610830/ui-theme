@@ -21,7 +21,6 @@ export function SettingsProvider({ children }) {
     }
   }, []);
 
-  // Save to localStorage (on change)
   useEffect(() => {
     localStorage.setItem(
       "app-settings",
