@@ -7,7 +7,7 @@ export default function App() {
   const { theme } = useSettings();
 
   return (
-    <div className={theme}>
+    <div className={`app ${theme}`}>
       <Header />
       <SettingsPanel />
       <PreviewCard />
